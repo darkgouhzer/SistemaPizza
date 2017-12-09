@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="puntoventaModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="puntoventaModelStoreContainer">
+          <EntitySet Name="compras" EntityType="puntoventaModel.Store.compras" store:Type="Tables" Schema="puntoventa" />
+          <EntitySet Name="empleados" EntityType="puntoventaModel.Store.empleados" store:Type="Tables" Schema="puntoventa" />
+          <EntitySet Name="productos" EntityType="puntoventaModel.Store.productos" store:Type="Tables" Schema="puntoventa" />
+          <EntitySet Name="proveedores" EntityType="puntoventaModel.Store.proveedores" store:Type="Tables" Schema="puntoventa" />
+          <EntitySet Name="usuarios" EntityType="puntoventaModel.Store.usuarios" store:Type="Tables" Schema="puntoventa" />
+          <EntitySet Name="ventas" EntityType="puntoventaModel.Store.ventas" store:Type="Tables" Schema="puntoventa" />
+          <AssociationSet Name="fk_Compras_Productos1" Association="puntoventaModel.Store.fk_Compras_Productos1">
+            <End Role="productos" EntitySet="productos" />
+            <End Role="compras" EntitySet="compras" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Compras_Proveedores1" Association="puntoventaModel.Store.fk_Compras_Proveedores1">
+            <End Role="proveedores" EntitySet="proveedores" />
+            <End Role="compras" EntitySet="compras" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Compras_Usuarios1" Association="puntoventaModel.Store.fk_Compras_Usuarios1">
+            <End Role="usuarios" EntitySet="usuarios" />
+            <End Role="compras" EntitySet="compras" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Productos_Proveedores1" Association="puntoventaModel.Store.fk_Productos_Proveedores1">
+            <End Role="proveedores" EntitySet="proveedores" />
+            <End Role="productos" EntitySet="productos" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Usuarios_Empleados" Association="puntoventaModel.Store.fk_Usuarios_Empleados">
+            <End Role="empleados" EntitySet="empleados" />
+            <End Role="usuarios" EntitySet="usuarios" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Ventas_Productos1" Association="puntoventaModel.Store.fk_Ventas_Productos1">
+            <End Role="productos" EntitySet="productos" />
+            <End Role="ventas" EntitySet="ventas" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Ventas_Usuarios1" Association="puntoventaModel.Store.fk_Ventas_Usuarios1">
+            <End Role="usuarios" EntitySet="usuarios" />
+            <End Role="ventas" EntitySet="ventas" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="compras">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Cantidad" Type="double" />
+          <Property Name="Precio" Type="double" />
+          <Property Name="Importe" Type="double" />
+          <Property Name="Proveedores_id" Type="int" Nullable="false" />
+          <Property Name="Usuarios_id" Type="int" Nullable="false" />
+          <Property Name="Productos_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="empleados">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="varchar" MaxLength="45" />
+          <Property Name="Ap_paterno" Type="varchar" MaxLength="45" />
+          <Property Name="Ap_materno" Type="varchar" MaxLength="45" />
+          <Property Name="Sueldo" Type="double" />
+          <Property Name="Turno" Type="varchar" MaxLength="20" />
+          <Property Name="Puesto" Type="varchar" MaxLength="45" />
+        </EntityType>
+        <EntityType Name="productos">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Codigo_barras" Type="varchar" MaxLength="25" />
+          <Property Name="Descripcion" Type="varchar" MaxLength="60" />
+          <Property Name="Cantidad" Type="double" />
+          <Property Name="Precio_compra" Type="double" />
+          <Property Name="Precio_venta" Type="double" />
+          <Property Name="Proveedores_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="proveedores">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="varchar" MaxLength="100" />
+          <Property Name="Direccion" Type="varchar" MaxLength="45" />
+          <Property Name="Telefono" Type="varchar" MaxLength="25" />
+          <Property Name="Email" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="usuarios">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="varchar" MaxLength="45" />
+          <Property Name="Contrasena" Type="text" />
+          <Property Name="Privilegio" Type="varchar" MaxLength="45" />
+          <Property Name="Status" Type="varchar" MaxLength="15" />
+          <Property Name="Empleados_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ventas">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Cantidad" Type="double" />
+          <Property Name="Precio" Type="double" />
+          <Property Name="Importe" Type="double" />
+          <Property Name="fecha_venta" Type="datetime" />
+          <Property Name="Productos_id" Type="int" Nullable="false" />
+          <Property Name="Usuarios_id" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="fk_Compras_Productos1">
+          <End Role="productos" Type="puntoventaModel.Store.productos" Multiplicity="1" />
+          <End Role="compras" Type="puntoventaModel.Store.compras" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="productos">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="compras">
+              <PropertyRef Name="Productos_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Compras_Proveedores1">
+          <End Role="proveedores" Type="puntoventaModel.Store.proveedores" Multiplicity="1" />
+          <End Role="compras" Type="puntoventaModel.Store.compras" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="proveedores">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="compras">
+              <PropertyRef Name="Proveedores_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Compras_Usuarios1">
+          <End Role="usuarios" Type="puntoventaModel.Store.usuarios" Multiplicity="1" />
+          <End Role="compras" Type="puntoventaModel.Store.compras" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="usuarios">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="compras">
+              <PropertyRef Name="Usuarios_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Productos_Proveedores1">
+          <End Role="proveedores" Type="puntoventaModel.Store.proveedores" Multiplicity="1" />
+          <End Role="productos" Type="puntoventaModel.Store.productos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="proveedores">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="productos">
+              <PropertyRef Name="Proveedores_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Usuarios_Empleados">
+          <End Role="empleados" Type="puntoventaModel.Store.empleados" Multiplicity="1" />
+          <End Role="usuarios" Type="puntoventaModel.Store.usuarios" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empleados">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="usuarios">
+              <PropertyRef Name="Empleados_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Ventas_Productos1">
+          <End Role="productos" Type="puntoventaModel.Store.productos" Multiplicity="1" />
+          <End Role="ventas" Type="puntoventaModel.Store.ventas" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="productos">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="ventas">
+              <PropertyRef Name="Productos_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Ventas_Usuarios1">
+          <End Role="usuarios" Type="puntoventaModel.Store.usuarios" Multiplicity="1" />
+          <End Role="ventas" Type="puntoventaModel.Store.ventas" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="usuarios">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="ventas">
+              <PropertyRef Name="Usuarios_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="puntoventaModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="puntoventaEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="compras" EntityType="puntoventaModel.compras" />
+          <EntitySet Name="empleados" EntityType="puntoventaModel.empleados" />
+          <EntitySet Name="productos" EntityType="puntoventaModel.productos" />
+          <EntitySet Name="proveedores" EntityType="puntoventaModel.proveedores" />
+          <EntitySet Name="usuarios" EntityType="puntoventaModel.usuarios" />
+          <EntitySet Name="ventas" EntityType="puntoventaModel.ventas" />
+          <AssociationSet Name="fk_Compras_Productos1" Association="puntoventaModel.fk_Compras_Productos1">
+            <End Role="productos" EntitySet="productos" />
+            <End Role="compras" EntitySet="compras" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Compras_Proveedores1" Association="puntoventaModel.fk_Compras_Proveedores1">
+            <End Role="proveedores" EntitySet="proveedores" />
+            <End Role="compras" EntitySet="compras" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Compras_Usuarios1" Association="puntoventaModel.fk_Compras_Usuarios1">
+            <End Role="usuarios" EntitySet="usuarios" />
+            <End Role="compras" EntitySet="compras" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Usuarios_Empleados" Association="puntoventaModel.fk_Usuarios_Empleados">
+            <End Role="empleados" EntitySet="empleados" />
+            <End Role="usuarios" EntitySet="usuarios" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Productos_Proveedores1" Association="puntoventaModel.fk_Productos_Proveedores1">
+            <End Role="proveedores" EntitySet="proveedores" />
+            <End Role="productos" EntitySet="productos" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Ventas_Productos1" Association="puntoventaModel.fk_Ventas_Productos1">
+            <End Role="productos" EntitySet="productos" />
+            <End Role="ventas" EntitySet="ventas" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Ventas_Usuarios1" Association="puntoventaModel.fk_Ventas_Usuarios1">
+            <End Role="usuarios" EntitySet="usuarios" />
+            <End Role="ventas" EntitySet="ventas" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="compras">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Cantidad" Type="Double" />
+          <Property Name="Precio" Type="Double" />
+          <Property Name="Importe" Type="Double" />
+          <Property Name="Proveedores_id" Type="Int32" Nullable="false" />
+          <Property Name="Usuarios_id" Type="Int32" Nullable="false" />
+          <Property Name="Productos_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="productos" Relationship="puntoventaModel.fk_Compras_Productos1" FromRole="compras" ToRole="productos" />
+          <NavigationProperty Name="proveedores" Relationship="puntoventaModel.fk_Compras_Proveedores1" FromRole="compras" ToRole="proveedores" />
+          <NavigationProperty Name="usuarios" Relationship="puntoventaModel.fk_Compras_Usuarios1" FromRole="compras" ToRole="usuarios" />
+        </EntityType>
+        <EntityType Name="empleados">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="Ap_paterno" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="Ap_materno" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="Sueldo" Type="Double" />
+          <Property Name="Turno" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Puesto" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="usuarios" Relationship="puntoventaModel.fk_Usuarios_Empleados" FromRole="empleados" ToRole="usuarios" />
+        </EntityType>
+        <EntityType Name="productos">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Codigo_barras" Type="String" MaxLength="25" Unicode="false" FixedLength="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="60" Unicode="false" FixedLength="false" />
+          <Property Name="Cantidad" Type="Double" />
+          <Property Name="Precio_compra" Type="Double" />
+          <Property Name="Precio_venta" Type="Double" />
+          <Property Name="Proveedores_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="compras" Relationship="puntoventaModel.fk_Compras_Productos1" FromRole="productos" ToRole="compras" />
+          <NavigationProperty Name="proveedores" Relationship="puntoventaModel.fk_Productos_Proveedores1" FromRole="productos" ToRole="proveedores" />
+          <NavigationProperty Name="ventas" Relationship="puntoventaModel.fk_Ventas_Productos1" FromRole="productos" ToRole="ventas" />
+        </EntityType>
+        <EntityType Name="proveedores">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Direccion" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="Telefono" Type="String" MaxLength="25" Unicode="false" FixedLength="false" />
+          <Property Name="Email" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="compras" Relationship="puntoventaModel.fk_Compras_Proveedores1" FromRole="proveedores" ToRole="compras" />
+          <NavigationProperty Name="productos" Relationship="puntoventaModel.fk_Productos_Proveedores1" FromRole="proveedores" ToRole="productos" />
+        </EntityType>
+        <EntityType Name="usuarios">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="Contrasena" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+          <Property Name="Privilegio" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="Status" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="Empleados_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="compras" Relationship="puntoventaModel.fk_Compras_Usuarios1" FromRole="usuarios" ToRole="compras" />
+          <NavigationProperty Name="empleados" Relationship="puntoventaModel.fk_Usuarios_Empleados" FromRole="usuarios" ToRole="empleados" />
+          <NavigationProperty Name="ventas" Relationship="puntoventaModel.fk_Ventas_Usuarios1" FromRole="usuarios" ToRole="ventas" />
+        </EntityType>
+        <EntityType Name="ventas">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Cantidad" Type="Double" />
+          <Property Name="Precio" Type="Double" />
+          <Property Name="Importe" Type="Double" />
+          <Property Name="fecha_venta" Type="DateTime" />
+          <Property Name="Productos_id" Type="Int32" Nullable="false" />
+          <Property Name="Usuarios_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="productos" Relationship="puntoventaModel.fk_Ventas_Productos1" FromRole="ventas" ToRole="productos" />
+          <NavigationProperty Name="usuarios" Relationship="puntoventaModel.fk_Ventas_Usuarios1" FromRole="ventas" ToRole="usuarios" />
+        </EntityType>
+        <Association Name="fk_Compras_Productos1">
+          <End Role="productos" Type="puntoventaModel.productos" Multiplicity="1" />
+          <End Role="compras" Type="puntoventaModel.compras" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="productos">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="compras">
+              <PropertyRef Name="Productos_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Compras_Proveedores1">
+          <End Role="proveedores" Type="puntoventaModel.proveedores" Multiplicity="1" />
+          <End Role="compras" Type="puntoventaModel.compras" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="proveedores">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="compras">
+              <PropertyRef Name="Proveedores_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Compras_Usuarios1">
+          <End Role="usuarios" Type="puntoventaModel.usuarios" Multiplicity="1" />
+          <End Role="compras" Type="puntoventaModel.compras" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="usuarios">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="compras">
+              <PropertyRef Name="Usuarios_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Usuarios_Empleados">
+          <End Role="empleados" Type="puntoventaModel.empleados" Multiplicity="1" />
+          <End Role="usuarios" Type="puntoventaModel.usuarios" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="empleados">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="usuarios">
+              <PropertyRef Name="Empleados_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Productos_Proveedores1">
+          <End Role="proveedores" Type="puntoventaModel.proveedores" Multiplicity="1" />
+          <End Role="productos" Type="puntoventaModel.productos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="proveedores">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="productos">
+              <PropertyRef Name="Proveedores_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Ventas_Productos1">
+          <End Role="productos" Type="puntoventaModel.productos" Multiplicity="1" />
+          <End Role="ventas" Type="puntoventaModel.ventas" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="productos">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="ventas">
+              <PropertyRef Name="Productos_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Ventas_Usuarios1">
+          <End Role="usuarios" Type="puntoventaModel.usuarios" Multiplicity="1" />
+          <End Role="ventas" Type="puntoventaModel.ventas" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="usuarios">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="ventas">
+              <PropertyRef Name="Usuarios_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="puntoventaModelStoreContainer" CdmEntityContainer="puntoventaEntities">
+          <EntitySetMapping Name="compras">
+            <EntityTypeMapping TypeName="puntoventaModel.compras">
+              <MappingFragment StoreEntitySet="compras">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+                <ScalarProperty Name="Precio" ColumnName="Precio" />
+                <ScalarProperty Name="Importe" ColumnName="Importe" />
+                <ScalarProperty Name="Proveedores_id" ColumnName="Proveedores_id" />
+                <ScalarProperty Name="Usuarios_id" ColumnName="Usuarios_id" />
+                <ScalarProperty Name="Productos_id" ColumnName="Productos_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="empleados">
+            <EntityTypeMapping TypeName="puntoventaModel.empleados">
+              <MappingFragment StoreEntitySet="empleados">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Ap_paterno" ColumnName="Ap_paterno" />
+                <ScalarProperty Name="Ap_materno" ColumnName="Ap_materno" />
+                <ScalarProperty Name="Sueldo" ColumnName="Sueldo" />
+                <ScalarProperty Name="Turno" ColumnName="Turno" />
+                <ScalarProperty Name="Puesto" ColumnName="Puesto" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="productos">
+            <EntityTypeMapping TypeName="puntoventaModel.productos">
+              <MappingFragment StoreEntitySet="productos">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Codigo_barras" ColumnName="Codigo_barras" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+                <ScalarProperty Name="Precio_compra" ColumnName="Precio_compra" />
+                <ScalarProperty Name="Precio_venta" ColumnName="Precio_venta" />
+                <ScalarProperty Name="Proveedores_id" ColumnName="Proveedores_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="proveedores">
+            <EntityTypeMapping TypeName="puntoventaModel.proveedores">
+              <MappingFragment StoreEntitySet="proveedores">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="usuarios">
+            <EntityTypeMapping TypeName="puntoventaModel.usuarios">
+              <MappingFragment StoreEntitySet="usuarios">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Contrasena" ColumnName="Contrasena" />
+                <ScalarProperty Name="Privilegio" ColumnName="Privilegio" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Empleados_id" ColumnName="Empleados_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ventas">
+            <EntityTypeMapping TypeName="puntoventaModel.ventas">
+              <MappingFragment StoreEntitySet="ventas">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+                <ScalarProperty Name="Precio" ColumnName="Precio" />
+                <ScalarProperty Name="Importe" ColumnName="Importe" />
+                <ScalarProperty Name="fecha_venta" ColumnName="fecha_venta" />
+                <ScalarProperty Name="Productos_id" ColumnName="Productos_id" />
+                <ScalarProperty Name="Usuarios_id" ColumnName="Usuarios_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

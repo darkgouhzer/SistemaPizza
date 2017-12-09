@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d62a485fdd0a4cd484c12c9ef7d46b6f" Name="Diagram1">
+        <EntityTypeShape EntityType="puntoventaModel.compras" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="puntoventaModel.empleados" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="puntoventaModel.productos" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="puntoventaModel.proveedores" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="puntoventaModel.usuarios" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="puntoventaModel.ventas" Width="1.5" PointX="8.25" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="puntoventaModel.fk_Compras_Productos1" ManuallyRouted="false" />
+        <AssociationConnector Association="puntoventaModel.fk_Compras_Proveedores1" ManuallyRouted="false" />
+        <AssociationConnector Association="puntoventaModel.fk_Compras_Usuarios1" ManuallyRouted="false" />
+        <AssociationConnector Association="puntoventaModel.fk_Usuarios_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="puntoventaModel.fk_Productos_Proveedores1" ManuallyRouted="false" />
+        <AssociationConnector Association="puntoventaModel.fk_Ventas_Productos1" ManuallyRouted="false" />
+        <AssociationConnector Association="puntoventaModel.fk_Ventas_Usuarios1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

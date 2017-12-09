@@ -1,0 +1,183 @@
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\bin\Debug\Punto_Venta.exe.config
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.csproj.ResolveComReference.cache
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.exe
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.pdb
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.csprojResolveAssemblyReference.cache
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Agranel.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.AltaProveedores.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Bebidas.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Buscar.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.BuscarCliente.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.BuscarProductoPP.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.buscarProveedor.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Clientes.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Cobrar.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.compraProveedor.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.consultaTickets.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Corte_de_Caja.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Cuentas_de_Usuario.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Departamentos.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Efectivo.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Ensalada.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.entradaInventario.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.EntradaSalidaEfectivo.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Espagueti.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Inventario.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Menu_Principal.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.modificarProducto.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.modificarProveedor.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.modificarUsuario.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.nuevoProducto.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.nuevoUsuario.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.ProductoPantallaPrincipal.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Proveedores.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Form1.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Properties.Resources.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Reportes.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.varios.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.VentaPizza.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Ventas.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.csproj.GenerateResource.Cache
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\bin\Debug\Punto_Venta.exe
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\bin\Debug\Punto_Venta.pdb
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\bin\Debug\Punto_Venta.exe.config
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.csproj.ResolveComReference.cache
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.exe
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.pdb
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.csprojResolveAssemblyReference.cache
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Agranel.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.AltaProveedores.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Bebidas.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Buscar.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.BuscarCliente.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.BuscarProductoPP.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.buscarProveedor.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Clientes.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Cobrar.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.compraProveedor.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.consultaTickets.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Corte_de_Caja.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Cuentas_de_Usuario.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Departamentos.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Efectivo.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Ensalada.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.entradaInventario.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.EntradaSalidaEfectivo.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Espagueti.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Inventario.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Menu_Principal.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.modificarProducto.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.modificarProveedor.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.modificarUsuario.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.nuevoProducto.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.nuevoUsuario.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.ProductoPantallaPrincipal.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Proveedores.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Form1.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Properties.Resources.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Reportes.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.varios.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.VentaPizza.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Ventas.resources
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.csproj.GenerateResource.Cache
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\bin\Debug\Punto_Venta.exe
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria 1\Punto_Venta\Punto_Venta\bin\Debug\Punto_Venta.pdb
+C:\Users\jesus\Desktop\Via Roma Pizza\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Fondo.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\bin\Debug\Punto_Venta.exe.config
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\bin\Debug\Punto_Venta.exe
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\bin\Debug\Punto_Venta.pdb
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Interop.Office.dll
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.csproj.ResolveComReference.cache
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Agranel.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.AltaProveedores.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Bebidas.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Buscar.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.BuscarCliente.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.BuscarProductoPP.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.buscarProveedor.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Clientes.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Cobrar.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.compraProveedor.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.consultaTickets.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Corte_de_Caja.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Cuentas_de_Usuario.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Departamentos.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Efectivo.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Ensalada.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.entradaInventario.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.EntradaSalidaEfectivo.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Espagueti.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Fondo.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Inventario.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Menu_Principal.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.modificarProducto.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.modificarProveedor.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.modificarUsuario.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.nuevoProducto.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.nuevoUsuario.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.ProductoPantallaPrincipal.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Proveedores.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Form1.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Properties.Resources.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Reportes.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.varios.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.VentaPizza.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Ventas.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.csproj.GenerateResource.Cache
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.exe
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.pdb
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.csprojResolveAssemblyReference.cache
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.btnConsultarVenta.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.MesasPendientes.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.prueba.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Mitades.resources
+C:\Users\hugo\Documents\Proyectos\PuntoVentaPizzaUltima\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.exe.licenses
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\bin\Debug\Punto_Venta.exe.config
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Interop.Office.dll
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.csproj.ResolveComReference.cache
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.exe
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.pdb
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\bin\Debug\Punto_Venta.exe
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\bin\Debug\Punto_Venta.pdb
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.csprojResolveAssemblyReference.cache
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Agranel.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.AltaProveedores.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Bebidas.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Buscar.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.BuscarCliente.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.BuscarProductoPP.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.buscarProveedor.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Clientes.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Cobrar.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.compraProveedor.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.MesasPendientes.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.consultaTickets.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Corte_de_Caja.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Cuentas_de_Usuario.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Departamentos.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Efectivo.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Ensalada.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.entradaInventario.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.EntradaSalidaEfectivo.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Espagueti.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Fondo.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.btnConsultarVenta.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Inventario.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Menu_Principal.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Mitades.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.modificarProducto.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.modificarProveedor.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.modificarUsuario.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.nuevoProducto.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.nuevoUsuario.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.ProductoPantallaPrincipal.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Proveedores.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.prueba.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Form1.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Properties.Resources.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Reportes.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.varios.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.VentaPizza.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.Ventas.resources
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.csproj.GenerateResource.Cache
+C:\Users\hugo\Documents\Punto_VentaPizzeria\Punto_Venta\Punto_Venta\obj\Debug\Punto_Venta.exe.licenses

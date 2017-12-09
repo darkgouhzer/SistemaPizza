@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8B842FF9-CC01-4505-851F-103FC48DDDB7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Punto_Venta</RootNamespace>
+    <AssemblyName>Punto_Venta</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dashboard.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dashboard.v13.1.Extensions, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dashboard.v13.1.Win, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v13.1.UI, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Snap.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Snap.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Snap.v13.1.Extensions, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v13.1.UI, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v13.1.UI, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v13.1.Wizard, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v13.1.Win, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v13.1.Extensions, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\office\15.0.0.0__71e9bce111e9429c\office.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agranel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agranel.Designer.cs">
+      <DependentUpon>Agranel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarPizza.cs" />
+    <Compile Include="AltaProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltaProveedores.Designer.cs">
+      <DependentUpon>AltaProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bebidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bebidas.Designer.cs">
+      <DependentUpon>Bebidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar.Designer.cs">
+      <DependentUpon>Buscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarCliente.Designer.cs">
+      <DependentUpon>BuscarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarProductoPP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarProductoPP.Designer.cs">
+      <DependentUpon>BuscarProductoPP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buscarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buscarProveedor.Designer.cs">
+      <DependentUpon>buscarProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobrar.Designer.cs">
+      <DependentUpon>Cobrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="compraProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="compraProveedor.Designer.cs">
+      <DependentUpon>compraProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="conexion.cs" />
+    <Compile Include="MesasPendientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MesasPendientes.Designer.cs">
+      <DependentUpon>MesasPendientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultaTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultaTickets.Designer.cs">
+      <DependentUpon>consultaTickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Corte de Caja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Corte de Caja.Designer.cs">
+      <DependentUpon>Corte de Caja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuentas de Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuentas de Usuario.Designer.cs">
+      <DependentUpon>Cuentas de Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosCliente.cs" />
+    <Compile Include="DatosProductos.cs" />
+    <Compile Include="Departamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Departamentos.Designer.cs">
+      <DependentUpon>Departamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ensalada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ensalada.Designer.cs">
+      <DependentUpon>Ensalada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntradaSalidaEfectivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntradaSalidaEfectivo.Designer.cs">
+      <DependentUpon>EntradaSalidaEfectivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Espagueti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Espagueti.Designer.cs">
+      <DependentUpon>Espagueti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fondo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fondo.Designer.cs">
+      <DependentUpon>Fondo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuardarPreventa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuardarPreventa.Designer.cs">
+      <DependentUpon>GuardarPreventa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mitades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mitades.Designer.cs">
+      <DependentUpon>Mitades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modificarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificarUsuario.Designer.cs">
+      <DependentUpon>modificarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nuevoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nuevoUsuario.Designer.cs">
+      <DependentUpon>nuevoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obtenerCodigo.cs" />
+    <Compile Include="ProductoPantallaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductoPantallaPrincipal.Designer.cs">
+      <DependentUpon>ProductoPantallaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="prueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prueba.Designer.cs">
+      <DependentUpon>prueba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tipoPizzaLista.cs" />
+    <Compile Include="usuariosLista.cs" />
+    <Compile Include="Efectivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Efectivo.Designer.cs">
+      <DependentUpon>Efectivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="entradaInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entradaInventario.Designer.cs">
+      <DependentUpon>entradaInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InicioSesion.cs" />
+    <Compile Include="Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario.Designer.cs">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Principal.Designer.cs">
+      <DependentUpon>Menu_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modificarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificarProducto.Designer.cs">
+      <DependentUpon>modificarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modificarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificarProveedor.Designer.cs">
+      <DependentUpon>modificarProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nuevoProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nuevoProducto.Designer.cs">
+      <DependentUpon>nuevoProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores.Designer.cs">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sesion.Designer.cs">
+      <DependentUpon>Sesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes.Designer.cs">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="varios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="varios.Designer.cs">
+      <DependentUpon>varios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentaPizza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentaPizza.Designer.cs">
+      <DependentUpon>VentaPizza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Agranel.resx">
+      <DependentUpon>Agranel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltaProveedores.resx">
+      <DependentUpon>AltaProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bebidas.resx">
+      <DependentUpon>Bebidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar.resx">
+      <DependentUpon>Buscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarCliente.resx">
+      <DependentUpon>BuscarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarProductoPP.resx">
+      <DependentUpon>BuscarProductoPP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buscarProveedor.resx">
+      <DependentUpon>buscarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobrar.resx">
+      <DependentUpon>Cobrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="compraProveedor.resx">
+      <DependentUpon>compraProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MesasPendientes.resx">
+      <DependentUpon>MesasPendientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultaTickets.resx">
+      <DependentUpon>consultaTickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Corte de Caja.resx">
+      <DependentUpon>Corte de Caja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuentas de Usuario.resx">
+      <DependentUpon>Cuentas de Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Departamentos.resx">
+      <DependentUpon>Departamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Efectivo.resx">
+      <DependentUpon>Efectivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ensalada.resx">
+      <DependentUpon>Ensalada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entradaInventario.resx">
+      <DependentUpon>entradaInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntradaSalidaEfectivo.resx">
+      <DependentUpon>EntradaSalidaEfectivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Espagueti.resx">
+      <DependentUpon>Espagueti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fondo.resx">
+      <DependentUpon>Fondo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuardarPreventa.resx">
+      <DependentUpon>GuardarPreventa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario.resx">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Principal.resx">
+      <DependentUpon>Menu_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mitades.resx">
+      <DependentUpon>Mitades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificarProducto.resx">
+      <DependentUpon>modificarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificarProveedor.resx">
+      <DependentUpon>modificarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificarUsuario.resx">
+      <DependentUpon>modificarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nuevoProducto.resx">
+      <DependentUpon>nuevoProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nuevoUsuario.resx">
+      <DependentUpon>nuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductoPantallaPrincipal.resx">
+      <DependentUpon>ProductoPantallaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Proveedores.resx">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prueba.resx">
+      <DependentUpon>prueba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sesion.resx">
+      <DependentUpon>Sesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes.resx">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="varios.resx">
+      <DependentUpon>varios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentaPizza.resx">
+      <DependentUpon>VentaPizza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuentas de usuario2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gastos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proveedores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pago clientes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corte de caja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paloma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carnes-a-la-brasa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reportes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\catologos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_excel.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venta.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simboloDineromini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simboloDineromini2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-icon21x21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cortes650x434.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\block64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buy_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconoproveedores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lorry_Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lorry_Green1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventas1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuentas de usuario21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuentas de usuario22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventario1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proveedores1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corte de caja1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reportes1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-28550.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Office1">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>99</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carne a la parrilla 166552.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next48.png" />
+    <None Include="Resources\search_page32.png" />
+    <None Include="Resources\search_page48.png" />
+    <None Include="Resources\user48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzaVentanaPrincipal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG-20170615-WA0017.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logopizza500x500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logopizza350x350.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-de-ingredientes-de-acuarela-para-pizza_23-2147566363.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IngredientesExtras.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IngredientesExtrass.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IngredientesExtrass1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG-20170615-WA0002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen-logo-ConvertImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circulo_mitad300x300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circulo_mitad300x300I.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circulo_mitad300x300c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back48.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
